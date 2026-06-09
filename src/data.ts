@@ -114,27 +114,6 @@ export const GAMES_DATA: Game[] = [
       { id: "val_rank_gold", name: "Rank Booster (Gold to Plat)", basePrice: 45000, unit: "per Kenaikan" },
       { id: "val_rank_plat", name: "Rank Booster (Plat to Diamond)", basePrice: 70000, unit: "per Kenaikan" },
     ],
-  },
-  {
-    id: "hsr",
-    name: "Honkai: Star Rail",
-    category: "mobile",
-    developer: "Mihoyo / Hoyoverse",
-    image: "https://images.unsplash.com/photo-1612287230202-1bf1d85d1bdf?auto=format&fit=crop&q=80&w=400",
-    bundles: [
-      { id: "hsr_60", name: "60 Oneiric Shards", price: 16000, type: "currency" },
-      { id: "hsr_300", name: "300 Oneiric Shards", price: 79000, bonus: "+30 Bonus", type: "currency" },
-      { id: "hsr_980", name: "980 Oneiric Shards", price: 239000, bonus: "+110 Bonus", type: "currency" },
-      { id: "hsr_1980", name: "1980 Oneiric Shards", price: 479000, bonus: "+260 Bonus", type: "currency" },
-      { id: "hsr_3280", name: "3280 Oneiric Shards", price: 799000, bonus: "+600 Bonus", type: "currency" },
-      { id: "hsr_6480", name: "6480 Oneiric Shards", price: 1599000, bonus: "+1600 Bonus", type: "currency" },
-      { id: "hsr_express", name: "Express Supply Pass", price: 79000, originalPrice: 88000, bonus: "Layanan Hemat", type: "pass" },
-    ],
-    pilotingOptions: [
-      { id: "hsr_daily", name: "Piloting Harian + Stamina Trailblaze", basePrice: 8000, unit: "per Hari" },
-      { id: "hsr_moc", name: "Memory of Chaos (MOC) Full Stars", basePrice: 50000, unit: "per Reset" },
-      { id: "hsr_universe", name: "Simulated / Divergent Universe Farm", basePrice: 20000, unit: "per Run" },
-    ],
   }
 ];
 
@@ -225,7 +204,7 @@ export const PLAYMATES_DATA: Playmate[] = [
     name: "Nadia 'Meow'",
     username: "nadia_meoww",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
-    games: ["Mobile Legends", "Valorant", "Honkai: Star Rail"],
+    games: ["Mobile Legends", "Valorant"],
     rank: "Legend I (MLBB) / Gold III",
     rating: 4.8,
     reviews: 89,
