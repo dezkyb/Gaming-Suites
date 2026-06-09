@@ -1,0 +1,6 @@
+{
+  "name": "Gaming Suites",
+  "description": "Platform penyedia layanan ekosistem gaming terintegrasi untuk Top-Up instant, Jasa Booster/Piloting, Rekber Terpercaya, dan Playmate/Teman Mabar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
